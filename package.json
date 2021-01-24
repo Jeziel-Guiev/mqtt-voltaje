@@ -1,0 +1,18 @@
+{
+  "name": "sensordevoltaje",
+  "version": "1.0.0",
+  "description": "medir los niveles de voltaje DC de 0.05 a 0.55 voltios con Node Js MQTT y mongoDB",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon ./scr/server.js"
+  },
+  "author": "Cristian Josue Jimenez T.",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13",
+    "mqtt": "^4.2.6",
+    "nodemon": "^2.0.7",
+    "socket.io": "^2.0.4"
+  }
+}
